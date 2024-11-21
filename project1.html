@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 1 : Pipeline CI/CD Sécurisé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="project-page">
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Portfolio DevSecOps</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="btn">Accueil</a></li>
+            <li><a href="project1.html" class="btn active">Projet 1</a></li>
+            <li><a href="project2.html" class="btn">Projet 2</a></li>
+            <li><a href="project3.html" class="btn">Projet 3</a></li>
+            <li><a href="project4.html" class="btn">Projet 4</a></li>
+            <li><a href="project5.html" class="btn">Projet 5</a></li>
+        </ul>
+    </header>
+
+    <!-- Title Section -->
+    <section class="project-title">
+        <h1>Projet 1 : Pipeline CI/CD Sécurisé</h1>
+    </section>
+
+    <!-- Project Details Section -->
+    <section class="project-details">
+        <div class="project-info">
+            <h2>Description</h2>
+            <p>Création d’un pipeline CI/CD intégrant des outils de sécurité comme SAST (Static Application Security Testing) et DAST (Dynamic Application Security Testing), déployé sur AWS avec Docker et Kubernetes.</p>
+
+            <h2>Défis rencontrés</h2>
+            <p>Le principal défi était d'intégrer des étapes de sécurité automatisées dans un pipeline CI/CD déjà en place sans perturber les cycles de développement existants.</p>
+
+            <h2>Solutions mises en œuvre</h2>
+            <ul>
+                <li>Intégration de SonarQube pour l'analyse statique de code et la détection des vulnérabilités.</li>
+                <li>Configuration d'OWASP ZAP pour l'analyse dynamique des applications déployées.</li>
+                <li>Utilisation de Docker et Kubernetes pour gérer les environnements de déploiement isolés et reproductibles.</li>
+            </ul>
+
+            <h2>Résultats</h2>
+            <p>Le pipeline automatisé a permis de réduire les vulnérabilités de 40 % tout en accélérant le processus de déploiement de 25 %. Les développeurs ont également bénéficié d'un retour rapide sur les failles de sécurité.</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="project-image">
+            <img src="images/1.jpg" alt="Pipeline CI/CD Sécurisé">
+        </div>
+    </section>
+
+    <!-- Added Section: Impact -->
+    <section class="impact">
+        <h2>Impact Organisationnel</h2>
+        <p>
+            L'adoption de ce pipeline CI/CD a transformé les pratiques de développement de l'organisation en introduisant une culture de sécurité dès les premières étapes (shift-left security). 
+            Les équipes ont gagné en autonomie grâce à des outils intégrés et à des formations ciblées.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portfolio DevSecOps - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
